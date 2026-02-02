@@ -22,6 +22,8 @@ import {
   SidebarSpace,
   useSidebarOpenState,
   Link,
+  SidebarSubmenu,
+  SidebarSubmenuItem,
 } from '@backstage/core-components';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
@@ -68,6 +70,7 @@ export const Root = ({ children }: PropsWithChildren<{}>) => (
       <SidebarGroup label="Menu" icon={<MenuIcon />}>
         {/* Global nav, not org-specific */}
         <SidebarItem icon={HomeIcon} to="catalog" text="Home" />
+        <SidebarItem icon={HomeIcon} to="catalogv2" text="Catálogo V2" />
         <MyGroupsSidebarItem
           singularTitle="My Group"
           pluralTitle="My Groups"
