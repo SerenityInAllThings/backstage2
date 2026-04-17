@@ -7,5 +7,4 @@ spec:
   profile:
     displayName: Peterson Victor Gama
     email: PetersonVictor@pvictor464.onmicrosoft.com
-  memberOf:
-    - group:default/backstage
+  memberOf: []
