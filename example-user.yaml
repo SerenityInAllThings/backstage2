@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: petersonv
+  title: Peterson Victor
+spec:
+  profile:
+    displayName: Peterson Victor Gama
+    email: PetersonVictor@pvictor464.onmicrosoft.com
